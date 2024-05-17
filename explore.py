@@ -1,12 +1,12 @@
-from my_functions import *
-
-block("u14imagefilters/pic.jpg", "u14imagefilters/pic_block.jpg")
-print("what did this do?")
+import my_functions as mf
 
 
-# print("\n\nhere's some info about the picture:")
-# experiment('u14imagefilters\pic.jpg', 'u14imagefilters\mod.jpg')
+
+print("\n\nhere's some info about the picture:")
+mf.experiment('u15imagefilters\pic.jpg', 'u15imagefilters\mod.jpg')
 
 
-# TODO speckle (together)
+# mf.block("u15imagefilters/pic.jpg", "u15imagefilters/pic_block.jpg")
+# print("what did this do?")
+
 
