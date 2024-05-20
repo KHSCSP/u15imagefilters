@@ -5,7 +5,6 @@ import random
 # this function receives a string filename
 # and returns a 2D array of pixel values
 def load_file(orig):
-def load_file(orig):
     im = Image.open(orig)
     # im.show() # try this (here or other places)!
     mat = np.array(im)
